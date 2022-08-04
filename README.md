@@ -1,4 +1,4 @@
-# Street Style Landing Page
+# Restaurant Landing Page
 
 > ## [Prateek Budhiraja](https://prateekbudhiraja.in)
 

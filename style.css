@@ -88,3 +88,45 @@ img[alt="bottom-logo"] {
   bottom: 30px;
   right: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 15px;
+  }
+
+  .hero>.hero-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .navbar .list {
+    gap: 1rem;
+    font-size: .8rem;
+  }
+
+  .navbar img {
+    width: 60px;
+  }
+
+  button.button-small {
+    padding: 3px 8px;
+    font-size: .8rem;
+    margin-right: 0px;
+  }
+
+  button.button-large {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1.1rem;
+  }
+
+  .bottom img {
+    width: 120px;
+    margin-bottom: 80px;
+  }
+}
